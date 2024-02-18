@@ -1,10 +1,10 @@
-# Sponsify
+# Sponzify
 A website that connects the event organizers looking for sponsors and companies/organizations interested in giving sponsorship. 
 
 
 
 ## Description
-On Sponsify, there is a manager section where event managers will register themselves and will keep on updating the events they are looking sponsorship for. These details will be visible to the registered sponsors. In the sponsor section, sponsors can find nearby Events registered by event managers on our website. In order to register as a sponsor, you'll need to first tell us about your company and product. If any sponsor wants to provide sponsorship in a particular event, they can contact that event's manager directly from the website, or can save that event in cart for future. In case an event is saved in the cart of any sponsor, that event's manager would be able to see that company in the list of "Interested Companies" next to each of the events. Respective sponsors can be contacted from that list.
+On Sponzify, there is a manager section where event managers will register themselves and will keep on updating the events they are looking sponsorship for. These details will be visible to the registered sponsors. In the sponsor section, sponsors can find nearby Events registered by event managers on our website. In order to register as a sponsor, you'll need to first tell us about your company and product. If any sponsor wants to provide sponsorship in a particular event, they can contact that event's manager directly from the website, or can save that event in cart for future. In case an event is saved in the cart of any sponsor, that event's manager would be able to see that company in the list of "Interested Companies" next to each of the events. Respective sponsors can be contacted from that list.
 
 ### Tech Stacks used:
     Node.js
@@ -37,7 +37,7 @@ If the installation was successful, you should be able to run the following comm
 
 ## To run this project on a localhost:
 ```
-$ git clone https://github.com/aashishchachan/sponsify.git
+$ git clone https://github.com/uniquebhim/sponsify).git
 ```
 You will need to create a ```.env``` file and assign your database key to a variable ```"dbURL"```
 ```   
@@ -69,7 +69,7 @@ CLOUDINARY_SECRET = "Cloudinary Secret Key"
 To add search filter algorithms so that we are able to provide the sponsors with only the kind of events they want to see.
 
 
-#### Feel free to mail us at sponsify07@gmail.com in case of any query.
+#### Feel free to mail us at sponzify@gmail.com in case of any query.
 
 
 
