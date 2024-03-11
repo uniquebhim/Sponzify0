@@ -65,7 +65,7 @@
             <span class="nav-dot"></span>
         </label>
 
-        <input id="input-9" type="email" name="Email" placeholder="goa@sunburn.com" required />
+        <input id="input-9" type="email" name="Email" placeholder="sponzify@gmail.com" required />
         <label for="input-9">
             <span class="label-text">E-mail to connect</span>
             <span class="nav-dot"></span>
@@ -78,7 +78,7 @@
         </label>
         <div class="mb-3">
             <div class="form-file custom-file">
-                <input type="file" class="form-file-input" id="image" name="Image">
+                <input type="file" class="form-file-input" id="image" name="Image" required>
                 <label class="form-file-label" for="image">
                     <span class="form-file-text custom-file-label"></span>
                     <span class="form-file-button"></span>
@@ -87,11 +87,14 @@
         </div>
         <button type="submit">Submit Event Details</button>
         <p class="tip">Press Tab</p>
-        <!-- partial -->
-        <script>
-            bsCustomFileInput.init()
-        </script>
-        <script src="./script.js"></script>
+    </form>
+    <!-- partial -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            bsCustomFileInput.init();
+        });
+    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

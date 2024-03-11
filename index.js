@@ -27,7 +27,8 @@ const bcrypt = require("bcryptjs");
 const { MongoStore } = require("connect-mongo");
 const MongoDBStore = require("connect-mongo")(session);
 //const MongoStore = require('connect-mongo')(session);
-const DBURL = process.env.dbURL;
+// const DBURL = process.env.dbURL;
+const DBURL="mongodb://umfflfkyomq3tycz2ct9:gGEBJTNOl6oD5AUOvYJ@bi6kadyss93evlfhbp1h-mongodb.services.clever-cloud.com:2602/bi6kadyss93evlfhbp1h";
 
 var cookieParser = require("cookie-parser");
 app.engine("ejs", ejsMate);
